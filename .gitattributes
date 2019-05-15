@@ -1,0 +1,28 @@
+*           text=auto
+
+.git*       text export-ignore
+
+*.h         text
+*.cpp       text
+*.json      text
+*.in        text
+
+*.avi       binary
+*.bmp       binary
+*.ico       binary
+*.jpeg      binary
+*.jpg       binary
+*.png       binary
+*.lib       binary
+*.tlb       binary
+
+
+*.sh        eol=lf
+*.bat       eol=crlf
+*.vcproj    eol=crlf
+*.vcxproj   text eol=crlf -whitespace
+*.filters   eol=crlf
+*.sln       eol=crlf
+
+# File Encoding
+# *.ps1		text working-tree-encoding=UTF-16
